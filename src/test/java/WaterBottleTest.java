@@ -13,6 +13,13 @@ public class WaterBottleTest {
 
     @Test
     public void readVolume() {
-        assertEquals(100, );
+        assertEquals(100, waterBottle.getVolume());
+    }
+
+    @Test
+    public void volumeReducesBySetAmountForEachDrink() {
+        assertEquals(90, waterBottle.drink());
+        assertEquals(80, waterBottle.drink());
+        assertEquals(70, waterBottle.drink());
     }
 }
