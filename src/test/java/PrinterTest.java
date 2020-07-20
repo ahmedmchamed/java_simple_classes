@@ -30,10 +30,10 @@ public class PrinterTest {
 
     @Test
     public void printerCantPrintWithoutPaper() {
-        Printer printer = new Printer(0, 250);
-        printer.print(5, 10);
-        assertEquals(0, printer.getNumberOfSheets());
+        Printer localPrinter = new Printer(0, 250);
+        localPrinter.print(5, 10);
+        assertEquals(0, localPrinter.getNumberOfSheets());
         //toner volume should remain unchanged
-        assertEquals(250, printer.getTonerVolume());
+        assertEquals(250, localPrinter.getTonerVolume());
     }
 }
