@@ -1,12 +1,18 @@
 public class Printer {
     private int numberOfSheetsLeft;
+    private int tonerVolume;
 
-    public void Printer(int numberOfSheetsLeft) {
+    public void Printer(int numberOfSheetsLeft, int tonerVolume) {
         this.numberOfSheetsLeft = numberOfSheetsLeft;
+        this.tonerVolume = tonerVolume;
     }
 
     public int getNumberOfSheets() {
         return this.numberOfSheetsLeft;
+    }
+
+    public int getTonerVolume() {
+        return this.tonerVolume;
     }
 
     public void print(int numberOfSheets, int numberOfCopies) {
