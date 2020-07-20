@@ -2,7 +2,7 @@ public class Printer {
     private int numberOfSheetsLeft;
     private int tonerVolume;
 
-    public void Printer(int numberOfSheetsLeft, int tonerVolume) {
+    public Printer(int numberOfSheetsLeft, int tonerVolume) {
         this.numberOfSheetsLeft = numberOfSheetsLeft;
         this.tonerVolume = tonerVolume;
     }
@@ -15,9 +15,12 @@ public class Printer {
         return this.tonerVolume;
     }
 
-    public void print(int numberOfSheets, int numberOfCopies) {
+    public void print(int numberOfPages, int numberOfCopies) {
         if (this.numberOfSheetsLeft > 0) {
-            this.numberOfSheetsLeft -= numberOfSheets * numberOfCopies;
+            this.numberOfSheetsLeft -= numberOfPages * numberOfCopies;
+            for (int i = 0; i < numberOfPages; i++) {
+                this.tonerVolume -= i;
+            }
         }
         else {
             System.out.println("The paper tray beckons you for more paper.");
