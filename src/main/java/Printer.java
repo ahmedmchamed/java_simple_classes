@@ -5,4 +5,8 @@ public class Printer {
         this.numberOfSheetsLeft = numberOfSheetsLeft;
     }
 
+    public int getNumberOfSheets() {
+        return this.numberOfSheetsLeft;
+    }
+
 }
