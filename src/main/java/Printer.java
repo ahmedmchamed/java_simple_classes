@@ -21,7 +21,7 @@ public class Printer {
             this.numberOfSheetsLeft -= numberOfPages * numberOfCopies;
 
             for (int i = 0; i < numberOfPages; i++) {
-                this.tonerVolume = this.tonerVolume - 1;
+                --this.tonerVolume;
             }
 
         }

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="51e2855e-0c4a-4879-946f-fa3c8ba6d131" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Printer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
+  <component name="RunManager" selected="JUnit.PrinterTest">
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="simple_classes" />
       <option name="PACKAGE_NAME" value="" />
@@ -70,9 +71,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrinterTest" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.WaterBottleTest" />
-        <item itemvalue="JUnit.PrinterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -106,22 +107,22 @@
       <screen x="58" y="23" width="1382" height="877" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1440.23.1920.1057/58.23.1382.877@58.23.1382.877" timestamp="1595256646111" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1595258335697">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1595258827772">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1595258335697" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1595258335693">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1595258827772" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1595258827769">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1595258335693" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1595258335691">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1595258827769" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1595258827768">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1595258335691" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1595258335694">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1595258827768" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1595258827771">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1595258335694" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1595258827771" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1595252797300">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
